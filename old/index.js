@@ -6,7 +6,7 @@ var io = require('../..')(server);
 var port = process.env.PORT || 33344;
 
 server.listen(port, function () {
-  console.log('Server listening at port %d', port);
+  console.log('Chat starting.... Server listening at port %d', port);
 });
 
 // Routing
