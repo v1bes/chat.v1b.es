@@ -30,7 +30,7 @@ $(function() {
     if (data.numUsers === 1) {
       message += "there's 1 participant";
     } else {
-      message += " guys are " + data.numUsers + " v1bin'";
+      message += " there are " + data.numUsers + " guys v1bin'";
     }
     log(message);
   }
